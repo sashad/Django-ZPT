@@ -1,7 +1,7 @@
 # Django-ZPT
 ZPT (TAL) to Django. Original templates are awful :)
 
-"Page Templates provide an elegant templating mechanism that achieves a clean separation of presentation and application logic while allowing for designers to work with templates in their visual editing tools (FrontPage, Dreamweaver, GoLive, etc.)."
+"Zope Page Templates provide an elegant templating mechanism that achieves a clean separation of presentation and application logic while allowing for designers to work with templates in their visual editing tools (FrontPage, Dreamweaver, GoLive, etc.)."
 
 [Chameleon](https://chameleon.readthedocs.io/en/latest/) - "The language used is page templates, originally a Zope invention, but available here as a standalone library that you can use in any script or application running Python 2.7 and up, including 3.4+ and pypy). It comes with a set of new features, too."
 
