@@ -176,7 +176,7 @@ More complicated templates:
 </metal:block>
 ```
 
-4. views.py example to build index page:
+4. views.py example to build an index page:
 
 ```
 from django.shortcuts import render
