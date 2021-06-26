@@ -56,7 +56,7 @@ urlpatterns = [
 ]
 ```
 
-views.py example, TAL_templates directory in project root:
+views.py example, TAL_templates is a directory in project root:
 ```
 from django.shortcuts import render
 
