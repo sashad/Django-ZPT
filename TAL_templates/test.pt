@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <h1>Hello, It's a Page Template test.</h1>
+        <h1 tal:content="context.META.get('HTTP_USER_AGENT','empty')">Page Template</h1>
+        <h1 tal:content="context.USER">Page Template</h1>
+        <h2>GET</h2>
+        <h4 tal:content="context.GET">Page Template</h4>
+        <h2>POST</h2>
+        <h4 tal:content="context.POST">Page Template</h4>
+        <h2>FILES</h2>
+        <h4 tal:content="context.FILES">Page Template</h4>
+        <h2>COOKIES</h2>
+        <h4 tal:content="context.COOKIES">Page Template</h4>
+        <h2>SESSION</h2>
+        <p tal:content="request.session"></p>
+        <h2>META</h2>
+        <p>
+            <table>
+                <tbody>
+                    <tr tal:repeat="key context.META.keys()"><td tal:content="key"></td><td tal:content="context.META[key]"></td></tr>
+                </tbody>
+            </table>
+        </p>
+    </body>
+</html>
