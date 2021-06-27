@@ -80,7 +80,7 @@ def from_string(request):
 
 More complicated templates:
 
-1. Define a template Common.pt with a macro (common)
+1. Define a template Common.pt with a macro (common). This is a design(template) of your site.
 ```
 <!DOCTYPE html>
 <metal:block define-macro="common" >
@@ -149,7 +149,7 @@ More complicated templates:
         </section>
 ```
 
-3. So index.pt:
+3. So index.pt looks like this:
 ```
 <metal:block tal:define="container load:Common.pt" metal:use-macro="python: container.macros.common">
     <tal:block metal:fill-slot="swiper_and_form" >
